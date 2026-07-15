@@ -1,68 +1,135 @@
 {
-  "_EventRow-BJiB_iT8.js": {
-    "file": "assets/EventRow-BJiB_iT8.js",
+  "_EventRow-C4Y8C_sc.js": {
+    "file": "assets/EventRow-C4Y8C_sc.js",
     "name": "EventRow",
     "imports": [
       "_rolldown-runtime-Bh1tDfsg.js",
+      "_i18n-DRiUbR1W.js",
       "index.html",
-      "_terminology-PHKeuyRQ.js",
-      "_sessions-WtUTUp1T.js",
+      "_terminology-CMRidutH.js",
+      "_sessions-CJ2lUTsC.js",
       "_identity-C86nqFgJ.js"
     ]
   },
-  "_LogDialog-CaBDNC6Q.js": {
-    "file": "assets/LogDialog-CaBDNC6Q.js",
+  "_LanguageControl-CB0GwTZi.js": {
+    "file": "assets/LanguageControl-CB0GwTZi.js",
+    "name": "LanguageControl",
+    "imports": [
+      "_i18n-DRiUbR1W.js"
+    ]
+  },
+  "_LogDialog-CTwiaVta.js": {
+    "file": "assets/LogDialog-CTwiaVta.js",
     "name": "LogDialog",
     "imports": [
       "_rolldown-runtime-Bh1tDfsg.js",
+      "_i18n-DRiUbR1W.js",
       "index.html"
     ]
   },
-  "_SummaryCards-M1KluiyE.js": {
-    "file": "assets/SummaryCards-M1KluiyE.js",
+  "_SummaryCards-BLnMXvsz.js": {
+    "file": "assets/SummaryCards-BLnMXvsz.js",
     "name": "SummaryCards",
     "imports": [
-      "index.html",
-      "_terminology-PHKeuyRQ.js",
-      "_sessions-WtUTUp1T.js"
+      "_i18n-DRiUbR1W.js",
+      "_entryOptions-Bh5koLjv.js",
+      "_terminology-CMRidutH.js",
+      "_sessions-CJ2lUTsC.js"
+    ]
+  },
+  "_VionixBrand-CoEKnJrF.js": {
+    "file": "assets/VionixBrand-CoEKnJrF.js",
+    "name": "VionixBrand",
+    "imports": [
+      "_i18n-DRiUbR1W.js"
+    ]
+  },
+  "_clientConfig-CHLyds_e.js": {
+    "file": "assets/clientConfig-CHLyds_e.js",
+    "name": "clientConfig",
+    "imports": [
+      "_index.esm-CRZg9tNA.js"
+    ]
+  },
+  "_entryOptions-Bh5koLjv.js": {
+    "file": "assets/entryOptions-Bh5koLjv.js",
+    "name": "entryOptions",
+    "imports": [
+      "_i18n-DRiUbR1W.js"
+    ]
+  },
+  "_i18n-DRiUbR1W.js": {
+    "file": "assets/i18n-DRiUbR1W.js",
+    "name": "i18n",
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js"
     ]
   },
   "_identity-C86nqFgJ.js": {
     "file": "assets/identity-C86nqFgJ.js",
     "name": "identity"
   },
+  "_index.esm-CRZg9tNA.js": {
+    "file": "assets/index.esm-CRZg9tNA.js",
+    "name": "index.esm"
+  },
+  "_index.esm-CzqAz6Io.js": {
+    "file": "assets/index.esm-CzqAz6Io.js",
+    "name": "index.esm",
+    "imports": [
+      "_index.esm-CRZg9tNA.js"
+    ]
+  },
+  "_policy-COafa2ej.js": {
+    "file": "assets/policy-COafa2ej.js",
+    "name": "policy"
+  },
   "_rolldown-runtime-Bh1tDfsg.js": {
     "file": "assets/rolldown-runtime-Bh1tDfsg.js",
     "name": "rolldown-runtime"
   },
-  "_sessions-WtUTUp1T.js": {
-    "file": "assets/sessions-WtUTUp1T.js",
+  "_sessions-CJ2lUTsC.js": {
+    "file": "assets/sessions-CJ2lUTsC.js",
     "name": "sessions",
     "imports": [
-      "index.html",
-      "_terminology-PHKeuyRQ.js"
+      "_i18n-DRiUbR1W.js",
+      "_entryOptions-Bh5koLjv.js",
+      "_terminology-CMRidutH.js"
     ]
   },
-  "_terminology-PHKeuyRQ.js": {
-    "file": "assets/terminology-PHKeuyRQ.js",
+  "_terminology-CMRidutH.js": {
+    "file": "assets/terminology-CMRidutH.js",
     "name": "terminology",
     "imports": [
-      "index.html"
+      "_i18n-DRiUbR1W.js"
     ]
   },
+  "_theme-DGBZNwZy.js": {
+    "file": "assets/theme-DGBZNwZy.js",
+    "name": "theme",
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_i18n-DRiUbR1W.js"
+    ]
+  },
+  "_types-B8Q2s_Lj.js": {
+    "file": "assets/types-B8Q2s_Lj.js",
+    "name": "types"
+  },
   "index.html": {
-    "file": "assets/index-Cfb598cC.js",
+    "file": "assets/index-CxZIUvu6.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_rolldown-runtime-Bh1tDfsg.js"
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_i18n-DRiUbR1W.js"
     ],
     "dynamicImports": [
-      "src/CareApp.tsx"
+      "src/App.tsx"
     ],
     "css": [
-      "assets/index-DjrI9A_Z.css"
+      "assets/index-Z9UGUMAn.css"
     ]
   },
   "node_modules/qrcode/lib/browser.js": {
@@ -74,19 +141,49 @@
       "_rolldown-runtime-Bh1tDfsg.js"
     ]
   },
+  "src/App.tsx": {
+    "file": "assets/App-DxoGuZsd.js",
+    "name": "App",
+    "src": "src/App.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "_i18n-DRiUbR1W.js",
+      "index.html",
+      "_theme-DGBZNwZy.js",
+      "_index.esm-CRZg9tNA.js",
+      "_clientConfig-CHLyds_e.js",
+      "_LanguageControl-CB0GwTZi.js",
+      "_VionixBrand-CoEKnJrF.js",
+      "_policy-COafa2ej.js"
+    ],
+    "dynamicImports": [
+      "src/CareApp.tsx",
+      "src/firebase/config.ts",
+      "src/firebase/repository.ts"
+    ]
+  },
   "src/CareApp.tsx": {
-    "file": "assets/CareApp-CMyZtcGv.js",
+    "file": "assets/CareApp-C-WVyYaS.js",
     "name": "CareApp",
     "src": "src/CareApp.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Bh1tDfsg.js",
+      "_i18n-DRiUbR1W.js",
       "index.html",
-      "_terminology-PHKeuyRQ.js",
-      "_SummaryCards-M1KluiyE.js",
-      "_sessions-WtUTUp1T.js",
-      "_LogDialog-CaBDNC6Q.js",
-      "_EventRow-BJiB_iT8.js"
+      "_theme-DGBZNwZy.js",
+      "_LanguageControl-CB0GwTZi.js",
+      "_VionixBrand-CoEKnJrF.js",
+      "_entryOptions-Bh5koLjv.js",
+      "_types-B8Q2s_Lj.js",
+      "_terminology-CMRidutH.js",
+      "_SummaryCards-BLnMXvsz.js",
+      "_sessions-CJ2lUTsC.js",
+      "_LogDialog-CTwiaVta.js",
+      "src/firebase/config.ts",
+      "src/firebase/repository.ts",
+      "_EventRow-C4Y8C_sc.js"
     ],
     "dynamicImports": [
       "src/ui/views/TimelineView.tsx",
@@ -95,25 +192,54 @@
       "src/ui/views/AboutView.tsx"
     ]
   },
+  "src/firebase/config.ts": {
+    "file": "assets/config-CjMjhlJi.js",
+    "name": "config",
+    "src": "src/firebase/config.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index.esm-CRZg9tNA.js",
+      "_clientConfig-CHLyds_e.js",
+      "_index.esm-CzqAz6Io.js"
+    ]
+  },
+  "src/firebase/repository.ts": {
+    "file": "assets/repository-atg54o4T.js",
+    "name": "repository",
+    "src": "src/firebase/repository.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_policy-COafa2ej.js",
+      "_entryOptions-Bh5koLjv.js",
+      "_types-B8Q2s_Lj.js",
+      "_index.esm-CzqAz6Io.js"
+    ]
+  },
   "src/ui/views/AboutView.tsx": {
-    "file": "assets/AboutView-Bx7ANe2n.js",
+    "file": "assets/AboutView-B6oDpz6n.js",
     "name": "AboutView",
     "src": "src/ui/views/AboutView.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "index.html"
+      "_i18n-DRiUbR1W.js",
+      "index.html",
+      "_VionixBrand-CoEKnJrF.js"
     ]
   },
   "src/ui/views/FamilyView.tsx": {
-    "file": "assets/FamilyView-B3PaxUir.js",
+    "file": "assets/FamilyView-DTQoBEbt.js",
     "name": "FamilyView",
     "src": "src/ui/views/FamilyView.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Bh1tDfsg.js",
+      "_i18n-DRiUbR1W.js",
       "index.html",
-      "_terminology-PHKeuyRQ.js",
-      "_LogDialog-CaBDNC6Q.js",
+      "_LanguageControl-CB0GwTZi.js",
+      "_entryOptions-Bh5koLjv.js",
+      "_terminology-CMRidutH.js",
+      "_LogDialog-CTwiaVta.js",
+      "src/firebase/repository.ts",
       "_identity-C86nqFgJ.js"
     ],
     "dynamicImports": [
@@ -121,30 +247,34 @@
     ]
   },
   "src/ui/views/ReportsView.tsx": {
-    "file": "assets/ReportsView-DR6AAR9H.js",
+    "file": "assets/ReportsView-CwgCerRT.js",
     "name": "ReportsView",
     "src": "src/ui/views/ReportsView.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Bh1tDfsg.js",
+      "_i18n-DRiUbR1W.js",
       "index.html",
-      "_terminology-PHKeuyRQ.js",
-      "_SummaryCards-M1KluiyE.js",
-      "_sessions-WtUTUp1T.js"
+      "_types-B8Q2s_Lj.js",
+      "_terminology-CMRidutH.js",
+      "_SummaryCards-BLnMXvsz.js",
+      "_sessions-CJ2lUTsC.js"
     ]
   },
   "src/ui/views/TimelineView.tsx": {
-    "file": "assets/TimelineView-e82_vvlN.js",
+    "file": "assets/TimelineView-CG6K7mwq.js",
     "name": "TimelineView",
     "src": "src/ui/views/TimelineView.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-Bh1tDfsg.js",
+      "_i18n-DRiUbR1W.js",
       "index.html",
-      "_terminology-PHKeuyRQ.js",
-      "_sessions-WtUTUp1T.js",
+      "_entryOptions-Bh5koLjv.js",
+      "_terminology-CMRidutH.js",
+      "_sessions-CJ2lUTsC.js",
       "_identity-C86nqFgJ.js",
-      "_EventRow-BJiB_iT8.js"
+      "_EventRow-C4Y8C_sc.js"
     ]
   }
 }
