@@ -1,0 +1,16 @@
+{
+  "name": "Vionix Baby Care Tracker",
+  "short_name": "Baby Care",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f6f3",
+  "theme_color": "#236b59",
+  "description": "Vionix Baby Care Tracker — shared baby care tracking for bottle feeding, breastfeeding, diapers, sleep, crying, expressing milk, and notes.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

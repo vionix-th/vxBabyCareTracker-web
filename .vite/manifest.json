@@ -1,0 +1,150 @@
+{
+  "_EventRow-D6W9-Dbv.js": {
+    "file": "assets/EventRow-D6W9-Dbv.js",
+    "name": "EventRow",
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "index.html",
+      "_terminology-C5Pfh874.js",
+      "_sessions-Cqxl8VVT.js",
+      "_identity-C86nqFgJ.js"
+    ]
+  },
+  "_LogDialog-B5rBtCAv.js": {
+    "file": "assets/LogDialog-B5rBtCAv.js",
+    "name": "LogDialog",
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "index.html"
+    ]
+  },
+  "_SummaryCards-m3pV0RZv.js": {
+    "file": "assets/SummaryCards-m3pV0RZv.js",
+    "name": "SummaryCards",
+    "imports": [
+      "index.html",
+      "_terminology-C5Pfh874.js",
+      "_sessions-Cqxl8VVT.js"
+    ]
+  },
+  "_identity-C86nqFgJ.js": {
+    "file": "assets/identity-C86nqFgJ.js",
+    "name": "identity"
+  },
+  "_rolldown-runtime-Bh1tDfsg.js": {
+    "file": "assets/rolldown-runtime-Bh1tDfsg.js",
+    "name": "rolldown-runtime"
+  },
+  "_sessions-Cqxl8VVT.js": {
+    "file": "assets/sessions-Cqxl8VVT.js",
+    "name": "sessions",
+    "imports": [
+      "index.html",
+      "_terminology-C5Pfh874.js"
+    ]
+  },
+  "_terminology-C5Pfh874.js": {
+    "file": "assets/terminology-C5Pfh874.js",
+    "name": "terminology",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-CoJZO61a.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js"
+    ],
+    "dynamicImports": [
+      "src/CareApp.tsx"
+    ],
+    "css": [
+      "assets/index-BrE-AZAv.css"
+    ]
+  },
+  "node_modules/qrcode/lib/browser.js": {
+    "file": "assets/browser-Nztc4jrW.js",
+    "name": "browser",
+    "src": "node_modules/qrcode/lib/browser.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js"
+    ]
+  },
+  "src/CareApp.tsx": {
+    "file": "assets/CareApp-BK5-Ocs5.js",
+    "name": "CareApp",
+    "src": "src/CareApp.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "index.html",
+      "_terminology-C5Pfh874.js",
+      "_SummaryCards-m3pV0RZv.js",
+      "_sessions-Cqxl8VVT.js",
+      "_LogDialog-B5rBtCAv.js",
+      "_EventRow-D6W9-Dbv.js"
+    ],
+    "dynamicImports": [
+      "src/ui/views/TimelineView.tsx",
+      "src/ui/views/ReportsView.tsx",
+      "src/ui/views/FamilyView.tsx",
+      "src/ui/views/AboutView.tsx"
+    ]
+  },
+  "src/ui/views/AboutView.tsx": {
+    "file": "assets/AboutView-cmeXzMyk.js",
+    "name": "AboutView",
+    "src": "src/ui/views/AboutView.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/ui/views/FamilyView.tsx": {
+    "file": "assets/FamilyView-Bv6DcorC.js",
+    "name": "FamilyView",
+    "src": "src/ui/views/FamilyView.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "index.html",
+      "_terminology-C5Pfh874.js",
+      "_LogDialog-B5rBtCAv.js",
+      "_identity-C86nqFgJ.js"
+    ],
+    "dynamicImports": [
+      "node_modules/qrcode/lib/browser.js"
+    ]
+  },
+  "src/ui/views/ReportsView.tsx": {
+    "file": "assets/ReportsView-BXJsuyPh.js",
+    "name": "ReportsView",
+    "src": "src/ui/views/ReportsView.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "index.html",
+      "_terminology-C5Pfh874.js",
+      "_SummaryCards-m3pV0RZv.js",
+      "_sessions-Cqxl8VVT.js"
+    ]
+  },
+  "src/ui/views/TimelineView.tsx": {
+    "file": "assets/TimelineView-CozstTaD.js",
+    "name": "TimelineView",
+    "src": "src/ui/views/TimelineView.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-Bh1tDfsg.js",
+      "index.html",
+      "_terminology-C5Pfh874.js",
+      "_sessions-Cqxl8VVT.js",
+      "_identity-C86nqFgJ.js",
+      "_EventRow-D6W9-Dbv.js"
+    ]
+  }
+}
