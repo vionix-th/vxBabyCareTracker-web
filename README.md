@@ -2,7 +2,7 @@
 
 Shared, real-time baby care tracking for parents and caregivers. Log bottle feeds, breastfeeding, diapers, sleep, crying, pumping, weight, and notes in a shared family space.
 
-**Live app → [vxBabyCareTracker.web.app](https://vxBabyCareTracker.web.app)**
+**Live app → [vionix-baby-care-tracker.web.app](https://vionix-baby-care-tracker.web.app/)**
 
 ## Features
 
