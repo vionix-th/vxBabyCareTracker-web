@@ -1,1 +1,0 @@
-function e(e,t){if(!e)return{primary:t};let r=n(e.displayName),i=n(e.email);return r&&i&&r.toLocaleLowerCase()===i.toLocaleLowerCase()?{primary:i}:{primary:r||i||t}}function t(t,n){return e(t,n).primary}function n(e){return e?.trim()??``}export{e as n,t};
