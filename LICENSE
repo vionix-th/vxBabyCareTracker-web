@@ -24,15 +24,17 @@ Third-Party Data Notice
 
 The MIT License above does not apply to World Health Organization (WHO)
 Child Growth Standards data stored under src/data/who/. Copyright in those
-datasets remains vested in WHO. The data are included for this project's
+datasets remains vested in WHO. The data are included only for this project's
 non-commercial public-health use under WHO's applicable terms and conditions:
 https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions
 
 WHO does not endorse this project. The WHO name and emblem are not used as
-project branding. Commercial reuse of the WHO data may require separate WHO
-permission. Distributors and downstream users are responsible for confirming
-that their use complies with WHO terms. Source-specific attribution, access
-dates, and checksums are recorded with the bundled data.
+project branding. WHO data may not be used to promote a commercial enterprise,
+product, or service. Substantive modification beyond minimal styling may
+require prior written WHO authorization. Distributors and downstream users
+must independently confirm that their use, redistribution, and any
+modification comply with current WHO terms. Source-specific attribution,
+access dates, and checksums are recorded with the bundled data.
 
 Required source acknowledgement: WHO, WHO Child Growth Standards:
 Weight-for-age, 2006, accessed 13 July 2026. The bundled LMS rows are extracted
