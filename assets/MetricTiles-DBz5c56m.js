@@ -1,1 +1,0 @@
-import{i as e}from"./i18n-BYLp5zIs.js";var t=e();function n({children:e,className:n=``,columns:r}){return(0,t.jsx)(`dl`,{className:`metric-tiles ${n}`.trim(),"data-columns":r,children:e})}function r({label:e,value:n}){return(0,t.jsxs)(`div`,{children:[(0,t.jsx)(`dt`,{children:e}),(0,t.jsx)(`dd`,{children:n})]})}export{n,r as t};
